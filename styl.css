@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: green;
+    width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+
+    justify-content: space-between;
+
+
+}
+nav ul{ 
+
+    padding-top: 70px;
+    list-style-type: none; 
+    display: flex; 
+    gap: 40px; 
+} 
+nav ul li a { 
+    
+    text-decoration: none; 
+    font-size: 25px;
+    color: white;
+
+}
+.gps {
+    text-align: center;
+}
+
+
+.h1-text {
+    color: green;
+    text-align: center;
+}
+.con-2 {
+
+    width: 80%;
+    margin: 0 auto;
+  
+}
+
+form {
+    text-align: center;
+}
+.img-1 {
+    width: 150px;
+}
+nav ul li a:hover { 
+    color: greenyellow;
+}
+
+.file{
+    position: relative;
+    text-align: center  ;
+}
+
+.btn-y {
+    background-color: green;
+    text-align: center;
+}
+#uploadForm{
+    position: absolute;
+    top: 0;
+    padding: 0;
+}
+
+#fileInput{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    opacity: 0;
+}
+#preview img, #preview video {
+    max-width: 200px;
+    margin: 10px;
+}
+/* Xarita maydonini belgilash */
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#locationOutput {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.information__box {
+    background-color: green;
+    height: 200px;
+    margin: 0 auto;
+    padding: 40px;
+    margin: 30px 0;
+}
+
+.information__box h1 {
+    color: white;
+}
+
+.information__box p {
+    color: white;
+    font-style: 20px;
+    padding: 10px 0;
+}
+
+.information__box--btn {
+    padding: 8px;
+    background-color: white;
+    color: green;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    transition: .5s;
+}
+
+.about1 img {
+    width: 500px;
+    height: 330px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.dastur 
+
+.ogil1 h2 {
+    color: green;
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+.ogil1 p {
+    color: green;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.ogil1 button {
+    padding: 8px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.ogil1 {
+    width: 500px;
+}
+
+.system {
+    margin: 30px 0;
+    background-color: green;
+    padding: 10px 0;
+}
+
+.system .container {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.system img {
+    width: 520px;
+    height: 330px;
+}
+
+.system__box {
+    margin: 30px 0;
+    background-color: greenyellow;
+    width: 600px;
+    text-align: center;
+    padding: 50px;
+}
+.informations {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.system__box h2 {
+    color: white;
+    font-size: 35px;
+    padding: 20px 0;
+}
+
+.system__box p {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.system__box button {
+    padding: 8px;
+    background-color: white;
+    color: greenyellow;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.dastur h2 {
+    color: green;
+    font-size: 30px;
+    padding: 10px 0;
+    border-bottom: 2px solid green;
+}
+
+.dastur p {
+    font-size: 19px;
+    padding: 10px 0;
+}
+
+.information__box button:hover {
+    color: black;
+    background-color: greenyellow;
+}   
+
+.ogil1 button:hover {
+    color: black;
+    background-color: greenyellow;
+}
+
+.system button:hover {
+    color: white;
+    background-color: green;
+}   
